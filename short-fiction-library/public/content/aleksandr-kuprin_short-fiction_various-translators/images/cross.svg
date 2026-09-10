@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 60 60">
+	<ns0:title>Four triangles arranged so that their points meet in the middle.</ns0:title>
+	<ns0:path d="M 10,0 50,0 30,30 Z" />
+	<ns0:path d="M 50,60 10,60 30,30 Z" />
+	<ns0:path d="M 0,50 0,10 30,30 Z" />
+	<ns0:path d="M 60,10 60,50 30,30 Z" />
+</ns0:svg>

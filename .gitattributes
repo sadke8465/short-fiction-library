@@ -1,0 +1,4 @@
+*.epub binary
+short-fiction-library/stories.csv binary
+short-fiction-library/public/data/stories.csv binary
+

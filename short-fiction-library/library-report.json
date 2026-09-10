@@ -1,0 +1,1294 @@
+{
+  "source_epubs": 126,
+  "source_catalog_rows": 238,
+  "catalog_slugs": 126,
+  "records": 3856,
+  "forms": {
+    "Short story": 3607,
+    "Novella": 69,
+    "Prose poem": 48,
+    "Children’s novella": 8,
+    "Frame tale": 110,
+    "Literary sketch": 12,
+    "Dramatic scene": 1,
+    "Drama": 1
+  },
+  "semantic_records": 3665,
+  "curated_rule_records": 189,
+  "curated_correction_records": 2,
+  "excluded": [
+    {
+      "book_slug": "elizabeth-gaskell_cranford",
+      "title": "Cranford",
+      "reason": "A single novel presented in chapters; chapters were not promoted to stories.",
+      "word_count": 70911
+    }
+  ],
+  "missing_catalog": [],
+  "errors": [],
+  "books": [
+    {
+      "book_slug": "a-n-afanasyev_russian-folktales_leonard-a-magnus",
+      "title": "Russian Folktales",
+      "story_count": 73,
+      "methods": {
+        "semantic markup": 73
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "164"
+    },
+    {
+      "book_slug": "agatha-christie_partners-in-crime",
+      "title": "Partners in Crime",
+      "story_count": 17,
+      "methods": {
+        "semantic markup": 17
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "125"
+    },
+    {
+      "book_slug": "agatha-christie_poirot-investigates",
+      "title": "Poirot Investigates",
+      "story_count": 11,
+      "methods": {
+        "semantic markup": 11
+      },
+      "assets_copied": 2,
+      "catalog_row_id": "125"
+    },
+    {
+      "book_slug": "akutagawa-ryunosuke_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 13,
+      "methods": {
+        "semantic markup": 13
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "185"
+    },
+    {
+      "book_slug": "aleksandr-kuprin_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 47,
+      "methods": {
+        "semantic markup": 47
+      },
+      "assets_copied": 2,
+      "catalog_row_id": "159"
+    },
+    {
+      "book_slug": "algernon-blackwood_john-silence-stories",
+      "title": "John Silence Stories",
+      "story_count": 6,
+      "methods": {
+        "semantic markup": 6
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "104"
+    },
+    {
+      "book_slug": "algis-budrys_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 10,
+      "methods": {
+        "semantic markup": 10
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "230"
+    },
+    {
+      "book_slug": "ambrose-bierce_can-such-things-be",
+      "title": "Can Such Things Be?",
+      "story_count": 48,
+      "methods": {
+        "semantic markup": 48
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "46"
+    },
+    {
+      "book_slug": "ambrose-bierce_in-the-midst-of-life",
+      "title": "In the Midst of Life",
+      "story_count": 26,
+      "methods": {
+        "semantic markup": 26
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "45"
+    },
+    {
+      "book_slug": "andre-norton_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 3,
+      "methods": {
+        "semantic markup": 3
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "228"
+    },
+    {
+      "book_slug": "anthony-trollope_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 41,
+      "methods": {
+        "semantic markup": 41
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "120"
+    },
+    {
+      "book_slug": "anton-chekhov_short-fiction_constance-garnett",
+      "title": "Short Fiction",
+      "story_count": 192,
+      "methods": {
+        "semantic markup": 192
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "153"
+    },
+    {
+      "book_slug": "arthur-b-reeve_craig-kennedy-stories",
+      "title": "Craig Kennedy Stories",
+      "story_count": 12,
+      "methods": {
+        "semantic markup": 12
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "87"
+    },
+    {
+      "book_slug": "arthur-conan-doyle_brigadier-gerard-stories",
+      "title": "Brigadier Gerard Stories",
+      "story_count": 17,
+      "methods": {
+        "semantic markup": 17
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "94"
+    },
+    {
+      "book_slug": "arthur-conan-doyle_his-last-bow",
+      "title": "His Last Bow",
+      "story_count": 7,
+      "methods": {
+        "semantic markup": 7
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "93"
+    },
+    {
+      "book_slug": "arthur-conan-doyle_the-adventures-of-sherlock-holmes",
+      "title": "The Adventures of Sherlock Holmes",
+      "story_count": 12,
+      "methods": {
+        "semantic markup": 12
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "93"
+    },
+    {
+      "book_slug": "arthur-conan-doyle_the-casebook-of-sherlock-holmes",
+      "title": "The Casebook of Sherlock Holmes",
+      "story_count": 12,
+      "methods": {
+        "semantic markup": 12
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "93"
+    },
+    {
+      "book_slug": "arthur-conan-doyle_the-memoirs-of-sherlock-holmes",
+      "title": "The Memoirs of Sherlock Holmes",
+      "story_count": 12,
+      "methods": {
+        "semantic markup": 12
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "93"
+    },
+    {
+      "book_slug": "arthur-conan-doyle_the-return-of-sherlock-holmes",
+      "title": "The Return of Sherlock Holmes",
+      "story_count": 13,
+      "methods": {
+        "semantic markup": 13
+      },
+      "assets_copied": 14,
+      "catalog_row_id": "93"
+    },
+    {
+      "book_slug": "arthur-machen_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 10,
+      "methods": {
+        "semantic markup": 10
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "105"
+    },
+    {
+      "book_slug": "baroness-orczy_the-old-man-in-the-corner",
+      "title": "The Old Man in the Corner",
+      "story_count": 12,
+      "methods": {
+        "curated structural rule": 12
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "126"
+    },
+    {
+      "book_slug": "beatrix-potter_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 20,
+      "methods": {
+        "semantic markup": 20
+      },
+      "assets_copied": 602,
+      "catalog_row_id": "152"
+    },
+    {
+      "book_slug": "catherine-louisa-pirkis_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 6,
+      "methods": {
+        "semantic markup": 6
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "124"
+    },
+    {
+      "book_slug": "charles-beaumont_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 3,
+      "methods": {
+        "semantic markup": 3
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "234"
+    },
+    {
+      "book_slug": "charles-w-chesnutt_the-conjure-woman",
+      "title": "The Conjure Woman",
+      "story_count": 11,
+      "methods": {
+        "semantic markup": 11
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "50"
+    },
+    {
+      "book_slug": "clark-ashton-smith_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 12,
+      "methods": {
+        "semantic markup": 12
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "73"
+    },
+    {
+      "book_slug": "clifford-d-simak_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 10,
+      "methods": {
+        "semantic markup": 10
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "226"
+    },
+    {
+      "book_slug": "cordwainer-smith_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 3,
+      "methods": {
+        "semantic markup": 3
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "227"
+    },
+    {
+      "book_slug": "daphne-du-maurier_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 7,
+      "methods": {
+        "semantic markup": 7
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "151"
+    },
+    {
+      "book_slug": "dashiell-hammett_continental-op-stories",
+      "title": "Continental Op Stories",
+      "story_count": 28,
+      "methods": {
+        "semantic markup": 27,
+        "curated markup correction": 1
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "77"
+    },
+    {
+      "book_slug": "dorothy-l-sayers_lord-peter-views-the-body",
+      "title": "Lord Peter Views the Body",
+      "story_count": 12,
+      "methods": {
+        "semantic markup": 12
+      },
+      "assets_copied": 4,
+      "catalog_row_id": "128"
+    },
+    {
+      "book_slug": "e-f-benson_ghost-stories",
+      "title": "Ghost Stories",
+      "story_count": 29,
+      "methods": {
+        "semantic markup": 29
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "106"
+    },
+    {
+      "book_slug": "e-m-forster_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 13,
+      "methods": {
+        "semantic markup": 13
+      },
+      "assets_copied": 1,
+      "catalog_row_id": "122"
+    },
+    {
+      "book_slug": "e-w-hornung_the-amateur-cracksman",
+      "title": "The Amateur Cracksman",
+      "story_count": 8,
+      "methods": {
+        "semantic markup": 8
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "127"
+    },
+    {
+      "book_slug": "edgar-allan-poe_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 66,
+      "methods": {
+        "semantic markup": 66
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "39"
+    },
+    {
+      "book_slug": "edgar-saltus_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 32,
+      "methods": {
+        "semantic markup": 32
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "84"
+    },
+    {
+      "book_slug": "elizabeth-gaskell_cranford",
+      "title": "Cranford",
+      "story_count": 0,
+      "methods": {},
+      "assets_copied": 0,
+      "catalog_row_id": "119"
+    },
+    {
+      "book_slug": "ernest-bramah_kai-lungs-golden-hours",
+      "title": "Kai Lung’s Golden Hours",
+      "story_count": 10,
+      "methods": {
+        "curated structural rule": 10
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "130"
+    },
+    {
+      "book_slug": "ernest-hemingway_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 48,
+      "methods": {
+        "semantic markup": 48
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "65"
+    },
+    {
+      "book_slug": "ernest-thompson-seton_wild-animals-i-have-known",
+      "title": "Wild Animals I Have Known",
+      "story_count": 8,
+      "methods": {
+        "semantic markup": 8
+      },
+      "assets_copied": 11,
+      "catalog_row_id": "214"
+    },
+    {
+      "book_slug": "f-scott-fitzgerald_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 39,
+      "methods": {
+        "semantic markup": 39
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "64"
+    },
+    {
+      "book_slug": "frank-belknap-long_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 21,
+      "methods": {
+        "semantic markup": 21
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "237"
+    },
+    {
+      "book_slug": "frederik-pohl_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 14,
+      "methods": {
+        "semantic markup": 14
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "225"
+    },
+    {
+      "book_slug": "fritz-leiber_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 25,
+      "methods": {
+        "semantic markup": 25
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "221"
+    },
+    {
+      "book_slug": "fyodor-sologub_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 50,
+      "methods": {
+        "semantic markup": 50
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "163"
+    },
+    {
+      "book_slug": "g-k-chesterton_the-innocence-of-father-brown",
+      "title": "The Innocence of Father Brown",
+      "story_count": 12,
+      "methods": {
+        "semantic markup": 12
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "108"
+    },
+    {
+      "book_slug": "george-macdonald_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 19,
+      "methods": {
+        "semantic markup": 19
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "123"
+    },
+    {
+      "book_slug": "gertrude-stein_three-lives",
+      "title": "Three Lives",
+      "story_count": 3,
+      "methods": {
+        "curated structural rule": 3
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "92"
+    },
+    {
+      "book_slug": "giovanni-boccaccio_the-decameron_john-payne",
+      "title": "The Decameron",
+      "story_count": 100,
+      "methods": {
+        "curated structural rule": 100
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "183"
+    },
+    {
+      "book_slug": "gustave-flaubert_short-fiction_m-walter-dunne",
+      "title": "Short Fiction",
+      "story_count": 4,
+      "methods": {
+        "curated markup correction": 1,
+        "semantic markup": 3
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "168"
+    },
+    {
+      "book_slug": "guy-de-maupassant_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 278,
+      "methods": {
+        "semantic markup": 278
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "167"
+    },
+    {
+      "book_slug": "h-beam-piper_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 27,
+      "methods": {
+        "semantic markup": 27
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "222"
+    },
+    {
+      "book_slug": "h-g-wells_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 57,
+      "methods": {
+        "semantic markup": 57
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "95"
+    },
+    {
+      "book_slug": "h-p-lovecraft_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 41,
+      "methods": {
+        "semantic markup": 41
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "71"
+    },
+    {
+      "book_slug": "harry-harrison_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 8,
+      "methods": {
+        "semantic markup": 8
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "229"
+    },
+    {
+      "book_slug": "henry-kuttner_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 11,
+      "methods": {
+        "semantic markup": 11
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "232"
+    },
+    {
+      "book_slug": "henry-lawson_while-the-billy-boils",
+      "title": "While the Billy Boils",
+      "story_count": 52,
+      "methods": {
+        "semantic markup": 52
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "143"
+    },
+    {
+      "book_slug": "herman-melville_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 18,
+      "methods": {
+        "semantic markup": 18
+      },
+      "assets_copied": 1,
+      "catalog_row_id": "42"
+    },
+    {
+      "book_slug": "hjalmar-soderberg_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 18,
+      "methods": {
+        "semantic markup": 18
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "182"
+    },
+    {
+      "book_slug": "honore-de-balzac_shorts-from-scenes-from-private-life_various-translators",
+      "title": "Shorts from Scenes from Private Life",
+      "story_count": 20,
+      "methods": {
+        "semantic markup": 20
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "169"
+    },
+    {
+      "book_slug": "isaac-asimov_short-science-fiction",
+      "title": "Short Science Fiction",
+      "story_count": 5,
+      "methods": {
+        "semantic markup": 5
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "218"
+    },
+    {
+      "book_slug": "ivan-bunin_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 18,
+      "methods": {
+        "semantic markup": 18
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "160"
+    },
+    {
+      "book_slug": "j-sheridan-le-fanu_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 39,
+      "methods": {
+        "semantic markup": 39
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "103"
+    },
+    {
+      "book_slug": "jack-london_short-fiction",
+      "title": "Lost Face",
+      "story_count": 7,
+      "methods": {
+        "semantic markup": 7
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "59"
+    },
+    {
+      "book_slug": "jacob-grimm_wilhelm-grimm_household-tales_margaret-hunt",
+      "title": "Household Tales",
+      "story_count": 211,
+      "methods": {
+        "semantic markup": 211
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "178"
+    },
+    {
+      "book_slug": "james-joyce_dubliners",
+      "title": "Dubliners",
+      "story_count": 15,
+      "methods": {
+        "semantic markup": 15
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "113"
+    },
+    {
+      "book_slug": "james-stephens_irish-fairy-tales",
+      "title": "Irish Fairy Tales",
+      "story_count": 10,
+      "methods": {
+        "semantic markup": 10
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "138"
+    },
+    {
+      "book_slug": "jean-toomer_cane",
+      "title": "Cane",
+      "story_count": 29,
+      "methods": {
+        "semantic markup": 29
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "66"
+    },
+    {
+      "book_slug": "jonas-lie_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 12,
+      "methods": {
+        "semantic markup": 12
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "181"
+    },
+    {
+      "book_slug": "joseph-jacobs_indian-fairy-tales",
+      "title": "Indian Fairy Tales",
+      "story_count": 29,
+      "methods": {
+        "semantic markup": 29
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "201"
+    },
+    {
+      "book_slug": "kahlil-gibran_the-forerunner",
+      "title": "The Forerunner",
+      "story_count": 24,
+      "methods": {
+        "semantic markup": 24
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "196"
+    },
+    {
+      "book_slug": "kahlil-gibran_the-madman",
+      "title": "The Madman",
+      "story_count": 34,
+      "methods": {
+        "semantic markup": 34
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "196"
+    },
+    {
+      "book_slug": "kate-chopin_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 49,
+      "methods": {
+        "semantic markup": 49
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "49"
+    },
+    {
+      "book_slug": "leo-tolstoy_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 175,
+      "methods": {
+        "semantic markup": 175
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "154"
+    },
+    {
+      "book_slug": "leonid-andreyev_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 38,
+      "methods": {
+        "semantic markup": 38
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "158"
+    },
+    {
+      "book_slug": "lord-dunsany_fifty-one-tales",
+      "title": "Fifty-One Tales",
+      "story_count": 52,
+      "methods": {
+        "semantic markup": 52
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "110"
+    },
+    {
+      "book_slug": "lord-dunsany_the-book-of-wonder_sidney-h-sime",
+      "title": "The Book of Wonder",
+      "story_count": 14,
+      "methods": {
+        "semantic markup": 14
+      },
+      "assets_copied": 9,
+      "catalog_row_id": "111"
+    },
+    {
+      "book_slug": "lord-dunsany_the-gods-of-pegana",
+      "title": "The Gods of Pegāna",
+      "story_count": 30,
+      "methods": {
+        "curated structural rule": 30
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "111"
+    },
+    {
+      "book_slug": "m-r-james_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 26,
+      "methods": {
+        "semantic markup": 26
+      },
+      "assets_copied": 2,
+      "catalog_row_id": "102"
+    },
+    {
+      "book_slug": "mack-reynolds_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 32,
+      "methods": {
+        "semantic markup": 32
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "235"
+    },
+    {
+      "book_slug": "manly-wade-wellman_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 20,
+      "methods": {
+        "semantic markup": 20
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "236"
+    },
+    {
+      "book_slug": "mary-shelley_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 19,
+      "methods": {
+        "semantic markup": 19
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "121"
+    },
+    {
+      "book_slug": "nella-larsen_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 2,
+      "methods": {
+        "semantic markup": 2
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "67"
+    },
+    {
+      "book_slug": "nikolai-gogol_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 12,
+      "methods": {
+        "semantic markup": 12
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "156"
+    },
+    {
+      "book_slug": "noel-loomis_short-science-fiction",
+      "title": "Short Science Fiction",
+      "story_count": 9,
+      "methods": {
+        "semantic markup": 9
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "238"
+    },
+    {
+      "book_slug": "o-henry_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 413,
+      "methods": {
+        "semantic markup": 413
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "43"
+    },
+    {
+      "book_slug": "oscar-wilde_childrens-stories",
+      "title": "Children’s Stories",
+      "story_count": 9,
+      "methods": {
+        "semantic markup": 9
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "101"
+    },
+    {
+      "book_slug": "oscar-wilde_lord-arthur-saviles-crime-and-other-stories",
+      "title": "Lord Arthur Savile’s Crime and Other Stories",
+      "story_count": 5,
+      "methods": {
+        "semantic markup": 5
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "100"
+    },
+    {
+      "book_slug": "p-g-wodehouse_golf-stories",
+      "title": "Golf Stories",
+      "story_count": 21,
+      "methods": {
+        "semantic markup": 21
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "109"
+    },
+    {
+      "book_slug": "p-g-wodehouse_jeeves-stories",
+      "title": "Jeeves Stories",
+      "story_count": 25,
+      "methods": {
+        "semantic markup": 25
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "109"
+    },
+    {
+      "book_slug": "p-g-wodehouse_mr-mulliner-stories",
+      "title": "Mr. Mulliner Stories",
+      "story_count": 9,
+      "methods": {
+        "semantic markup": 9
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "109"
+    },
+    {
+      "book_slug": "p-g-wodehouse_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 40,
+      "methods": {
+        "semantic markup": 40
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "109"
+    },
+    {
+      "book_slug": "p-g-wodehouse_ukridge-stories",
+      "title": "Ukridge Stories",
+      "story_count": 14,
+      "methods": {
+        "semantic markup": 14
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "109"
+    },
+    {
+      "book_slug": "philip-k-dick_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 13,
+      "methods": {
+        "semantic markup": 13
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "217"
+    },
+    {
+      "book_slug": "poul-anderson_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 23,
+      "methods": {
+        "semantic markup": 23
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "223"
+    },
+    {
+      "book_slug": "r-a-lafferty_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 10,
+      "methods": {
+        "semantic markup": 10
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "224"
+    },
+    {
+      "book_slug": "ray-bradbury_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 16,
+      "methods": {
+        "semantic markup": 16
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "219"
+    },
+    {
+      "book_slug": "ring-lardner_jack-keefe-stories",
+      "title": "Jack Keefe Stories",
+      "story_count": 23,
+      "methods": {
+        "semantic markup": 23
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "63"
+    },
+    {
+      "book_slug": "ring-lardner_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 74,
+      "methods": {
+        "semantic markup": 74
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "63"
+    },
+    {
+      "book_slug": "robert-e-howard_conan-stories",
+      "title": "Conan Stories",
+      "story_count": 10,
+      "methods": {
+        "semantic markup": 10
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "72"
+    },
+    {
+      "book_slug": "robert-e-howard_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 28,
+      "methods": {
+        "semantic markup": 28
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "72"
+    },
+    {
+      "book_slug": "robert-sheckley_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 19,
+      "methods": {
+        "semantic markup": 19
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "220"
+    },
+    {
+      "book_slug": "robert-w-chambers_the-king-in-yellow",
+      "title": "The King in Yellow",
+      "story_count": 10,
+      "methods": {
+        "semantic markup": 10
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "74"
+    },
+    {
+      "book_slug": "rudyard-kipling_just-so-stories",
+      "title": "Just So Stories",
+      "story_count": 12,
+      "methods": {
+        "semantic markup": 12
+      },
+      "assets_copied": 56,
+      "catalog_row_id": "96"
+    },
+    {
+      "book_slug": "rudyard-kipling_the-jungle-book",
+      "title": "The Jungle Book",
+      "story_count": 7,
+      "methods": {
+        "curated structural rule": 7
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "97"
+    },
+    {
+      "book_slug": "s-m-mitra_hindu-tales-from-the-sanskrit",
+      "title": "Hindu Tales from the Sanskrit",
+      "story_count": 9,
+      "methods": {
+        "semantic markup": 9
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "190"
+    },
+    {
+      "book_slug": "saki_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 142,
+      "methods": {
+        "semantic markup": 142
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "99"
+    },
+    {
+      "book_slug": "sarah-orne-jewett_the-country-of-the-pointed-firs",
+      "title": "The Country of the Pointed Firs",
+      "story_count": 1,
+      "methods": {
+        "curated structural rule": 1
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "47"
+    },
+    {
+      "book_slug": "selma-lagerlof_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 44,
+      "methods": {
+        "semantic markup": 44
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "180"
+    },
+    {
+      "book_slug": "sherwood-anderson_winesburg-ohio",
+      "title": "Winesburg, Ohio",
+      "story_count": 24,
+      "methods": {
+        "semantic markup": 24
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "62"
+    },
+    {
+      "book_slug": "stanley-g-weinbaum_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 6,
+      "methods": {
+        "semantic markup": 6
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "233"
+    },
+    {
+      "book_slug": "stephen-leacock_sunshine-sketches-of-a-little-town",
+      "title": "Sunshine Sketches of a Little Town",
+      "story_count": 12,
+      "methods": {
+        "curated structural rule": 12
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "140"
+    },
+    {
+      "book_slug": "tanizaki-junichiro_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 3,
+      "methods": {
+        "semantic markup": 3
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "186"
+    },
+    {
+      "book_slug": "thomas-hardy_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 43,
+      "methods": {
+        "semantic markup": 43
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "117"
+    },
+    {
+      "book_slug": "thomas-mann_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 14,
+      "methods": {
+        "semantic markup": 14
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "177"
+    },
+    {
+      "book_slug": "thornton-w-burgess_green-forest-stories",
+      "title": "Green Forest Stories",
+      "story_count": 4,
+      "methods": {
+        "curated structural rule": 4
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "216"
+    },
+    {
+      "book_slug": "thornton-w-burgess_green-meadow-stories",
+      "title": "Green Meadow Stories",
+      "story_count": 4,
+      "methods": {
+        "curated structural rule": 4
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "216"
+    },
+    {
+      "book_slug": "vladimir-korolenko_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 18,
+      "methods": {
+        "semantic markup": 18
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "161"
+    },
+    {
+      "book_slug": "voltairine-de-cleyre_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 13,
+      "methods": {
+        "semantic markup": 13
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "83"
+    },
+    {
+      "book_slug": "vsevolod-garshin_short-fiction_rowland-smith",
+      "title": "Short Fiction",
+      "story_count": 17,
+      "methods": {
+        "semantic markup": 17
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "162"
+    },
+    {
+      "book_slug": "w-somerset-maugham_ashenden",
+      "title": "Ashenden",
+      "story_count": 6,
+      "methods": {
+        "curated structural rule": 6
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "131"
+    },
+    {
+      "book_slug": "w-w-jacobs_the-lady-of-the-barge",
+      "title": "The Lady of the Barge",
+      "story_count": 12,
+      "methods": {
+        "semantic markup": 12
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "107"
+    },
+    {
+      "book_slug": "walter-m-miller-jr_short-fiction",
+      "title": "Short Fiction",
+      "story_count": 7,
+      "methods": {
+        "semantic markup": 7
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "231"
+    },
+    {
+      "book_slug": "washington-irving_the-sketch-book-of-geoffrey-crayon-gent",
+      "title": "The Sketchbook of Geoffrey Crayon, Gent.",
+      "story_count": 34,
+      "methods": {
+        "semantic markup": 34
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "41"
+    },
+    {
+      "book_slug": "xavier-de-maistre_short-fiction_various-translators",
+      "title": "Short Fiction",
+      "story_count": 5,
+      "methods": {
+        "semantic markup": 5
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "175"
+    },
+    {
+      "book_slug": "zitkala-sa_american-indian-stories",
+      "title": "American Indian Stories",
+      "story_count": 9,
+      "methods": {
+        "semantic markup": 9
+      },
+      "assets_copied": 0,
+      "catalog_row_id": "53"
+    }
+  ],
+  "unique_story_ids": 3856,
+  "reader_files": 3856,
+  "support_files": 10
+}
