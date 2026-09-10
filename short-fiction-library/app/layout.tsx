@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Short Fiction Library',
-  description: 'A private, searchable library of individual stories and short works.',
+  description: 'A searchable library of individual stories and short works.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

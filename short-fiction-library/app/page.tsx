@@ -111,6 +111,42 @@ const EMPTY_FILTERS: Filters = {
 const PAGE_SIZE = 30;
 const numberFormatter = new Intl.NumberFormat('en');
 
+function publicUrl(path: string) {
+  const normalizedPath = path.replace(/^\/+/, '');
+  return new URL(normalizedPath, document.baseURI).toString();
+}
+
+function prepareReaderHtml(html: string) {
+  const parsed = new DOMParser().parseFromString(html, 'text/html');
+  const attributes = ['src', 'href', 'poster', 'data', 'xlink:href'];
+
+  for (const element of parsed.body.querySelectorAll<HTMLElement>('*')) {
+    for (const attribute of attributes) {
+      const value = element.getAttribute(attribute);
+      if (value?.startsWith('/') && !value.startsWith('//')) {
+        element.setAttribute(attribute, publicUrl(value));
+      }
+    }
+
+    const srcset = element.getAttribute('srcset');
+    if (srcset) {
+      element.setAttribute(
+        'srcset',
+        srcset
+          .split(',')
+          .map((candidate) => {
+            const [url, ...descriptor] = candidate.trim().split(/\s+/);
+            const resolved = url.startsWith('/') && !url.startsWith('//') ? publicUrl(url) : url;
+            return [resolved, ...descriptor].join(' ');
+          })
+          .join(', '),
+      );
+    }
+  }
+
+  return parsed.body.innerHTML;
+}
+
 function searchable(value: string) {
   return value
     .normalize('NFKD')
@@ -243,7 +279,7 @@ export default function Home() {
 
   useEffect(() => {
     const controller = new AbortController();
-    fetch('/data/stories.json', { signal: controller.signal })
+    fetch(publicUrl('/data/stories.json'), { signal: controller.signal })
       .then((response) => {
         if (!response.ok) throw new Error(`Catalog request failed (${response.status})`);
         return response.json() as Promise<LibraryPayload>;
@@ -263,12 +299,12 @@ export default function Home() {
     setSelectedStory(story);
     setReaderHtml('');
     setReaderError('');
-    fetch(story.reader_path, { signal: controller.signal })
+    fetch(publicUrl(story.reader_path), { signal: controller.signal })
       .then((response) => {
         if (!response.ok) throw new Error(`Story request failed (${response.status})`);
         return response.text();
       })
-      .then(setReaderHtml)
+      .then((html) => setReaderHtml(prepareReaderHtml(html)))
       .catch((error: Error) => {
         if (error.name !== 'AbortError') setReaderError(error.message);
       });
@@ -391,7 +427,7 @@ export default function Home() {
               <div>
                 <div className="flex flex-wrap items-center gap-2">
                   <h1 className="font-serif text-3xl tracking-tight text-foreground sm:text-4xl">Short Fiction Library</h1>
-                  <Badge variant="outline" className="border-accent/25 text-accent">Private · local</Badge>
+                  <Badge variant="outline" className="border-accent/25 text-accent">Personal collection</Badge>
                 </div>
                 <p className="mt-1 text-sm text-muted-foreground">Individual works, liberated from their containing volumes.</p>
               </div>
@@ -407,7 +443,7 @@ export default function Home() {
                   <span><b className="text-foreground">{library.summary.volumes}</b> EPUBs</span>
                 </>
               )}
-              <a href="/data/stories.csv" download className={buttonVariants({ variant: 'outline', className: 'ml-1' })}>
+              <a href={typeof document === 'undefined' ? '/data/stories.csv' : publicUrl('/data/stories.csv')} download className={buttonVariants({ variant: 'outline', className: 'ml-1' })}>
                 <Download aria-hidden="true" />
                 Download CSV
               </a>

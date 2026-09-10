@@ -1,6 +1,6 @@
-# Private Short Fiction Library
+# Short Fiction Library
 
-This repository is the complete backup of the local short-fiction collection and its searchable reading interface.
+This repository is the complete backup of the short-fiction collection and its searchable reading interface.
 
 It contains:
 
@@ -11,7 +11,9 @@ It contains:
 - Extracted illustrations, notes, tables, formulas, and linked supporting material
 - An exportable story-level CSV and an extraction audit report
 
-The repository is intended to remain private.
+## Read online
+
+The public library is published at **https://sadke8465.github.io/short-fiction-library/**. GitHub Pages republishes it automatically after changes are pushed to `main`.
 
 ## Open on a new Mac
 
@@ -22,4 +24,3 @@ The repository is intended to remain private.
 On a fresh computer, the launcher installs the website dependencies and builds the local site before opening it. Nothing is published or uploaded by the launcher.
 
 See `short-fiction-library/LIBRARY_GUIDE.md` for catalog details and refresh instructions.
-

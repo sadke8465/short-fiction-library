@@ -8,7 +8,9 @@
   "scripts": {
     "dev": "vinext dev",
     "build": "vinext build",
+    "build:pages": "vite build --config vite.pages.config.ts",
     "start": "vinext start",
+    "preview:pages": "vite preview --config vite.pages.config.ts",
     "catalog": "python3 -B scripts/build_library.py",
     "lint": "oxlint",
     "format": "oxfmt"
