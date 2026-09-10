@@ -13,7 +13,7 @@ It contains:
 
 ## Read online
 
-The public library is published at **https://sadke8465.github.io/short-fiction-library/**. GitHub Pages republishes it automatically after changes are pushed to `main`.
+The public library is published at **https://sadke8465.github.io/short-fiction-library-pages/**. The generated website is kept in a separate public repository so this complete source backup—including the original EPUB files—can remain private.
 
 ## Open on a new Mac
 

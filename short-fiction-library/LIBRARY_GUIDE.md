@@ -4,13 +4,13 @@ This is a directory of the individual works inside your EPUB collection. It incl
 
 ## Read online
 
-Open **https://sadke8465.github.io/short-fiction-library/** on your phone or any other device. The published website and all included story texts are public.
+Open **https://sadke8465.github.io/short-fiction-library-pages/** on your phone or any other device. The published website and all included story texts are public.
 
 ## Open the library
 
 Double-click **Open Short Fiction Library.command**. Your browser will open automatically. Keep the small Terminal window open while using the library; closing it stops the local site.
 
-The launcher opens the local copy on this Mac. The GitHub Pages copy is published separately whenever changes are pushed to the repository.
+The launcher opens the local copy on this Mac. The GitHub Pages copy is stored in a separate public deployment repository.
 
 ## What is included
 
